@@ -81,7 +81,81 @@ Transaction results:
 - Sender change output: 41,999,937.99999535 CKB.
 - Transaction fee: 0.00000465 CKB.
 
-### 5.2 Create DOB dApp — Spore Protocol
+### 5.2 Store Data on Cell
+
+Status: Development and transaction review completed;
+
+Worked through the Store Data on Cell example to understand how application data is stored and updated on CKB Cells.
+
+Activities:
+
+Reviewed the transaction structure and Cell inputs and outputs.
+
+Examined how data is represented in transaction output data.
+
+### 5.3 xUDT — Fungible Token dApp
+
+Status: Completed — token issuance, transfer, and receiver live-cell verification confirmed
+
+Followed the xUDT fungible-token example using the local OffCKB Devnet.
+
+Completed activities:
+
+Issued a custom xUDT token.
+
+Identified the token using its xUDT Type Script and arguments.
+
+Queried account balances.
+
+Inspected the sender's token Cells.
+
+Prepared and reviewed the transfer transaction.
+
+Transferred 2,000 xUDT from Account #0 to Account #1.
+
+Queried Account #1's balance and confirmed receipt of 2,000 xUDT.
+
+Used ckb-cli wallet get-live-cells to locate and verify the receiver's unspent token Cell.
+
+Token xUDT arguments:
+
+0x7de82d61a7eb2ec82b0dc653e558ba120efcbfbb44dac87c12972d05bf25065300000000
+
+Token Type Script code hash:
+
+0x1a1e4fef34f5982906f745b048fe7b1089647e82346074e0f32c2ece26cf6b1e
+
+Issuance transaction references:
+
+0xbca1b032c191940715752abf24bdcd65f8d6f1b521c47393981e29d2976a5983
+
+0xf9a221ffe2a1ff4de83e797208a7b9a8d9ec0154b2a779d842ca4f8d95f80eb6
+
+Verified receiver information:
+
+Field
+
+Result
+
+Receiver: Account #1
+
+Received amount: 2,000 xUDT
+
+Cell capacity: 146 CKB
+
+Cell data size: 16 bytes
+
+Cell status: Live / unspent
+
+Output index: 0
+
+Block number reported: 14,561
+
+Verified live-cell transaction: 0x165f1827dbcb86c0ff037c832e2409ebacbd7ed82d95eeb6b23073db09296e88
+
+Transfer result clarification: The initial target was a 100 xUDT transfer. During transaction review, the constructed transaction was found to transfer the full 2,000 xUDT balance. The transaction was subsequently confirmed through Account #1's balance query and live-cell inspection. The actual transferred amount was therefore 2,000 xUDT, not 100 xUDT.
+
+### 5.4 Create DOB dApp — Spore Protocol
 
 **Status: Completed — transactions committed**
 
@@ -109,7 +183,7 @@ DOB transaction 2:
 
 Each transaction created a Spore output containing 77,714 bytes of data.
 
-### 5.3 Simple Hash Lock dApp
+### 5.5 Simple Hash Lock dApp
 
 **Status: Completed — deployed and verified on Devnet**
 
