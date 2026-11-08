@@ -113,16 +113,16 @@ Completed activities:
    + 0xbca1b032c191940715752abf24bdcd65f8d6f1b521c47393981e29d2976a5983
    + 0xf9a221ffe2a1ff4de83e797208a7b9a8d9ec0154b2a779d842ca4f8d95f80eb6
 
-** Verified receiver information: **
-
-| Field | Result | 
-|---|---:|---|
-| Receiver | Account #1 | 
-| Cell capacity | 146 CKB | 
-| Cell data size | 16 bytes | 
-| Cell status | Live / unspent | 
-| Output index | 0 | 
-| Block number reported | 14,561 | 
+** Verified receiver information:**
+### Live Cell Verification Result
+| Field | Result |
+|---|---:|
+| Receiver | Account #1 |
+| Cell capacity | 146 CKB |
+| Cell data size | 16 bytes |
+| Cell status | Live / unspent |
+| Output index | 0 |
+| Block number reported | 14,561 |
 
 Verified live-cell transaction: 0x165f1827dbcb86c0ff037c832e2409ebacbd7ed82d95eeb6b23073db09296e88
 Transfer result clarification: The initial target was a 100 xUDT transfer. During transaction review, the constructed transaction was found to transfer the full 2,000 xUDT balance. The transaction was subsequently confirmed through Account #1's balance query and live-cell inspection. The actual transferred amount was therefore 2,000 xUDT, not 100 xUDT.
