@@ -163,7 +163,10 @@ By the end of Week 1, I had:
 - Established a working local CKB Devnet.
 - Generated and inspected 20 pre-funded Devnet accounts.
 - Successfully transferred CKB between accounts.
+- Explored Store Data on Cell transaction and data-update workflows.
 - Created and verified two Spore-based DOB assets.
+- Issued a custom xUDT token and successfully transferred 2,000 xUDT from Account #0 to Account #1. 
+- Verified the receiver's 2,000 xUDT balance and confirmed its live Cell.
 - Built, tested, and deployed a Hash Lock contract.
 - Completed an end-to-end Hash Lock authorization experiment.
 - Tested invalid preimage handling and verified atomic transaction rejection.
