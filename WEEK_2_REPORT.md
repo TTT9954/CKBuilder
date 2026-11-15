@@ -1,6 +1,6 @@
 # Week 2 Progress Report – CCC Fundamentals
 
-## Objective
+## Objectives
 
 Learn the CCC (Common Knowledge Base) SDK and build a CKB dApp using Next.js, TypeScript, and JoyID wallet integration. Implement a CKB transfer flow through the dApp UI and verify the transaction on-chain.
 
