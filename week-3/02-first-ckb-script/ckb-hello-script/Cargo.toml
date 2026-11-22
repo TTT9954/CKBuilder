@@ -1,0 +1,18 @@
+[package]
+name = "ckb-hello-script"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+ckb-script-bin = []
+
+[[bin]]
+name = "ckb-hello-script"
+path = "src/main.rs"
+required-features = ["ckb-script-bin"]
+test = false
+bench = false
+
+[dev-dependencies]
+ckb-testtool = "1.1.1"
+serde_json = "1"

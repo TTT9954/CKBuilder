@@ -1,0 +1,1 @@
+C:\CKB\CKBuilder\week-3\01-rust-fundamentals\hello-ckb\target\debug\hello-ckb.exe: C:\CKB\CKBuilder\week-3\01-rust-fundamentals\hello-ckb\src\account.rs C:\CKB\CKBuilder\week-3\01-rust-fundamentals\hello-ckb\src\main.rs C:\CKB\CKBuilder\week-3\01-rust-fundamentals\hello-ckb\src\transaction.rs
